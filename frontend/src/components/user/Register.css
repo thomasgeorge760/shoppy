@@ -1,0 +1,47 @@
+.register_head{
+    background-image: url('../../Images/shopping-in-trivendram-1280x720.jpg');
+    background-repeat: no-repeat;
+      object-fit: cover;
+      align-items: center;
+      position: relative;
+      justify-content: center;
+     display: flex;
+      position: fixed;
+      backdrop-filter: blur(10px);
+      overflow-y: hidden;
+      overflow-x: hidden;
+      width: 100vw;
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+}
+.user_register_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 30vw;
+  height: 85vh;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(256 , 256,256,0.5);
+  backdrop-filter: blur(1px);
+}
+.user_register_form input{
+  margin: 8px;
+  border: none;
+  background-color: rgba(256 , 256,256,0.5);
+  padding: 8px;
+  border: 1px solid rgba(114, 104, 104, 0.671);
+  width: 70%;
+}
+.user_register_form p{
+  
+  
+  color: rgb(180, 57, 35);
+}
+#mark{
+  color: rgb(70, 63, 63);
+  margin: 3%;
+  font-size: smaller;
+}

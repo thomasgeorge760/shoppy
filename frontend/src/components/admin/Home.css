@@ -1,0 +1,77 @@
+/* .admin_home_page{
+    display: flex;
+   
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+} */
+
+.main_navbar button{
+    width: 80px;
+    background-color: rgb(6, 6, 39);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px;
+    
+    
+  }
+
+.main_navbar{
+    background-color: rgb(6, 6, 39);
+    width: 100vw;
+    position:sticky;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    height: 18vh;
+    top:0;
+   
+    
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+  .navbar-light .navbar-toggler {
+    
+   border: none;
+    
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("https://cdn-icons.flaticon.com/png/128/3007/premium/3007307.png?token=exp=1637297415~hmac=a65d7b4cea965bf541e37a12c4d53d4f");
+}
+.logout_button{
+    border: none;
+}
+.logout_button:hover{
+    background-color: rgba(6, 6, 39, 0.377);
+}
+.icons{
+    display: flex;
+    justify-content: end;
+}
+#Welcome_write{
+    color: white;
+}
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 20vw
+;
+    border-left: 1px
+ solid rgba(0,0,0,.2);
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+   
+}
+.admin_image_logo{
+    height:12vh ;
+}
